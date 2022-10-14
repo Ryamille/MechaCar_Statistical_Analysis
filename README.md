@@ -17,6 +17,8 @@ Unfortunately this was not the case when data was seperated by Lot number. As sh
 ## T-Tests on Suspension Coils
 The results from this portion of the data show the p-values of Lot at 1, Lot 2 at 0.6072, Lot 3 at 0.04168 and the all of them together at 0.06028.
 
+![](total_lot.png)
+
 ![](Resources/sample_test.png)
 
 Of the three only Lot 3 shows that it is not up to par comparatively to the rest of the data with a p-value equal to 0.04168 which is under the standard of 0.05. With that known it could be suggested to remove Lot 3 to get better overall results.
