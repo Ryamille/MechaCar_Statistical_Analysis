@@ -1,10 +1,10 @@
 # MechaCar Statistical Analysis
 ## Linear Regression to Predict MPG
 - The data set uses vehhicle length, weight, spoiler angle, ground clearance, and AWD(all-wheel drive). Of those listed only vehicle length and ground clearance are the non random variances. The other variables had higher p-values.
-- For this linear model the slope would not be considered zero. 
+- For this linear model the slope would not be considered zero. This shown when the variables are converted with each one being either over or under 0.
 - This model could be considered an effective at predicting the mpg because the data has a R squared value 0.7149 or 71%. That means 71% of the predictions will correct.
 
-![](Resources/linear_r.png)
+![](Resources/summary.png)
 
 ## Summary Statistics on Suspension Coils
 From the summary total data the variance for the PSI came out to around 62. This means that it will not exceed the 100 PSI that was specified.
