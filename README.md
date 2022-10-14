@@ -8,7 +8,7 @@
 
 ## Summary Statistics on Suspension Coils
 From the summary total data the variance for the PSI came out to around 62. This means that it will not exceed the 100 PSI that was specified.
-Unfortunately this was not the case when data was seperated by Lot number. As show Lot 3 had a variance of 170 which is 70 higher than what the design specifications were asking for. On the other hand the other two had a significantly lower variance with Lot 1 at .97 and Lot 2 at 7.5.
+Unfortunately this was not the case when data was seperated by Lot number. As shown Lot 3 had a variance of 170 which is 70 higher than what the design specifications were asking for. On the other hand the first two had a significantly lower variance with Lot 1 at .97 and Lot 2 at 7.5.
 
 ![](Resources/total_summary.png)
 
