@@ -3,16 +3,22 @@
 - The data set uses vehhicle length, weight, spoiler angle, ground clearance, and AWD(all-wheel drive). Of those listed only vehicle length and ground clearance are the non random variances. The other variables had higher p-values.
 - For this linear model the slope would not be considered zero. 
 - This model could be considered an effective at predicting the mpg because the data has a R squared value 0.7149 or 71%. That means 71% of the predictions will correct.
-![](Resources/Example_3.png)
+
+![](Resources/linear_r.png)
 
 ## Summary Statistics on Suspension Coils
 From the summary total data the variance for the PSI came out to around 62. This means that it will not exceed the 100 PSI that was specified.
 Unfortunately this was not the case when data was seperated by Lot number. As show Lot 3 had a variance of 170 which is 70 higher than what the design specifications were asking for. On the other hand the other two had a significantly lower variance with Lot 1 at .97 and Lot 2 at 7.5.
-![](Resources/Example_3.png)
+
+![](Resources/total_summary.png)
+
+![](Resources/lot_summary.png)
 
 ## T-Tests on Suspension Coils
 The results from this portion of the data show the p-values of Lot at 1, Lot 2 at 0.6072, Lot 3 at 0.04168 and the all of them together at 0.06028.
-![](Resources/Example_3.png)
+
+![](Resources/sample_test.png)
+
 Of the three only Lot 3 shows that it is not up to par comparatively to the rest of the data with a p-value equal to 0.04168 which is under the standard of 0.05. With that known it could be suggested to remove Lot 3 to get better overall results.
 
 ## Study Design: MechaCar vs Competition
