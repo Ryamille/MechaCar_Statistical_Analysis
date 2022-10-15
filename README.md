@@ -1,7 +1,7 @@
 # MechaCar Statistical Analysis
 ## Linear Regression to Predict MPG
 - The data set uses vehhicle length, weight, spoiler angle, ground clearance, and AWD(all-wheel drive). Of those listed only vehicle length and ground clearance are the non random variances. The other variables had higher p-values.
-- For this linear model the slope would not be considered zero. This shown when the variables are converted with each one being either over or under 0.
+- For this linear model the slope would not be considered zero. This is shown when the variables are converted from their scientific notation to see that each one os either over or under 0.
 - This model could be considered an effective at predicting the mpg because the data has a R squared value 0.7149 or 71%. That means 71% of the predictions will correct.
 
 ![](Resources/summary.png)
@@ -28,3 +28,4 @@ Some of the ways to compare the MechaCar vehicles performance to other manufactu
 - The metrics tested that are listed above will show the average consumer how to simply compare these vehicles against eachother.
 - The null hypothesis would be to sell it a fair price comparatively to the rest of the market. The alternative hypothesis would be to see if it is selling for an unfair price.
 - Using a multiple linear regression would show the biggest breakdown between the variables and how it would impact the price for MechaCars and their competitors.
+After gathering the correct data for the metrics these will then be tested against each other as well as having a standard to test against to recieve a conclusion.
